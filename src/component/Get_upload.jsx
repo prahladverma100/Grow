@@ -26,11 +26,11 @@ const Get_upload = () => {
                             <p className=' text-[#111111] lg:text-5xl md:text-4xl text-[30px] font-normal ff_roboto leading-normal'>Get <span className=' text-[#111111] lg:text-5xl md:text-4xl text-[30px] font-semibold ff_roboto leading-normal'>Updated</span>  With Us</p>
                             <p className=' text-[#646363] text-base  font-medium ff_roboto pt-4 pb-7'>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli.</p>
                             <form action="erugfuru">
-                                <div className=' flex gap-6'>
-                                    <input type="text" className='py-[14px] mx-auto flex justify-center lg:justify-start lg:mx-0 ps-4 border-[1px] my-[14px] border-[#CCCCCC] text_greay text-sm  outline-none rounded-[6px] w-full max-w-[283px] ff_roboto font-medium' placeholder='Your Name' />
-                                    <input type="text" className='py-[14px] mx-auto flex justify-center lg:justify-start lg:mx-0 ps-4 border-[1px] my-[14px] border-[#CCCCCC] text_greay text-sm  outline-none rounded-[6px] w-full max-w-[283px] ff_roboto font-medium' placeholder='Your Name' />
+                                <div className=' flex gap-6 borderinpt'>
+                                    <input type="text" className='py-[14px] mx-auto flex justify-center lg:justify-start lg:mx-0 ps-4  my-[14px] text_greay text-sm  outline-none rounded-[6px] w-full max-w-[283px] ff_roboto font-normal' placeholder='Your Name' />
+                                    <input type="text" className='py-[14px] mx-auto flex justify-center lg:justify-start lg:mx-0 ps-4  my-[14px] text_greay text-sm  outline-none rounded-[6px] w-full max-w-[283px] ff_roboto font-normal' placeholder='Your Email Address' />
                                 </div>
-                                <div>
+                                <div className='borderinpt'>
                                     <textarea type="text" className='mx-auto flex justify-center lg:justify-start lg:mx-0 pt-[14px] pb-[75px] resize-none ps-4 border-[1px] border-[#CCCCCC] outline-none rounded-[6px] w-full max-w-[594px] text-sm ff_roboto font-medium' placeholder='Message'></textarea>
                                 </div>
                                 <button className=' text-white mt-8 ff_roboto text-[18px]  hover:bg-[transparent] hover:text-black transition-all ease-in-out duration-300  hover:border-[black] border  hover:bg-white  font-medium py-3 px-6 bg-[#FF7DDF] rounded-[40px]'>Send Message</button>

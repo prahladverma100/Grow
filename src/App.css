@@ -61,12 +61,20 @@ body {
   overflow: hidden;
 }
 
-.linheight {
+/* .linheight {
   line-height: normal;
-}
+} */
 
 ::placeholder {
   font-family: 'Roboto';
   font-size: 16px;
   color: #808080 !important;
+}
+
+.borderinpt input,
+.borderinpt textarea {
+  border: 1px solid;
+  border-image: linear-gradient(to bottom, #00000018, #00000000);
+  border-image-slice: 1;
+  border-radius: 12px !important;
 }
